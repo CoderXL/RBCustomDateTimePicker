@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EFAD24718D6CC5200D621BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD24618D6CC5200D621BB /* Foundation.framework */; };
+		3EFAD24918D6CC5200D621BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD24818D6CC5200D621BB /* CoreGraphics.framework */; };
+		3EFAD24B18D6CC5200D621BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD24A18D6CC5200D621BB /* UIKit.framework */; };
+		3EFAD25118D6CC5200D621BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EFAD24F18D6CC5200D621BB /* InfoPlist.strings */; };
+		3EFAD25318D6CC5200D621BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD25218D6CC5200D621BB /* main.m */; };
+		3EFAD25718D6CC5200D621BB /* RBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD25618D6CC5200D621BB /* RBAppDelegate.m */; };
+		3EFAD25918D6CC5200D621BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFAD25818D6CC5200D621BB /* Images.xcassets */; };
+		3EFAD26018D6CC5200D621BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD25F18D6CC5200D621BB /* XCTest.framework */; };
+		3EFAD26118D6CC5200D621BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD24618D6CC5200D621BB /* Foundation.framework */; };
+		3EFAD26218D6CC5200D621BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFAD24A18D6CC5200D621BB /* UIKit.framework */; };
+		3EFAD26A18D6CC5200D621BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3EFAD26818D6CC5200D621BB /* InfoPlist.strings */; };
+		3EFAD26C18D6CC5200D621BB /* RBCustomDateTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD26B18D6CC5200D621BB /* RBCustomDateTimePickerTests.m */; };
+		3EFAD27818D6CDE200D621BB /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD27718D6CDE200D621BB /* MXSCycleScrollView.m */; };
+		3EFAD27B18D6CE4900D621BB /* RBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD27A18D6CE4900D621BB /* RBMainViewController.m */; };
+		3EFAD27E18D6D2E000D621BB /* RBCustomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EFAD27D18D6D2E000D621BB /* RBCustomDatePickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EFAD26318D6CC5200D621BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EFAD23B18D6CC5100D621BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EFAD24218D6CC5200D621BB;
+			remoteInfo = RBCustomDateTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3EFAD24318D6CC5200D621BB /* RBCustomDateTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RBCustomDateTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFAD24618D6CC5200D621BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3EFAD24818D6CC5200D621BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3EFAD24A18D6CC5200D621BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3EFAD24E18D6CC5200D621BB /* RBCustomDateTimePicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBCustomDateTimePicker-Info.plist"; sourceTree = "<group>"; };
+		3EFAD25018D6CC5200D621BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EFAD25218D6CC5200D621BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EFAD25418D6CC5200D621BB /* RBCustomDateTimePicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBCustomDateTimePicker-Prefix.pch"; sourceTree = "<group>"; };
+		3EFAD25518D6CC5200D621BB /* RBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBAppDelegate.h; sourceTree = "<group>"; };
+		3EFAD25618D6CC5200D621BB /* RBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBAppDelegate.m; sourceTree = "<group>"; };
+		3EFAD25818D6CC5200D621BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3EFAD25E18D6CC5200D621BB /* RBCustomDateTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RBCustomDateTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFAD25F18D6CC5200D621BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3EFAD26718D6CC5200D621BB /* RBCustomDateTimePickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RBCustomDateTimePickerTests-Info.plist"; sourceTree = "<group>"; };
+		3EFAD26918D6CC5200D621BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3EFAD26B18D6CC5200D621BB /* RBCustomDateTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RBCustomDateTimePickerTests.m; sourceTree = "<group>"; };
+		3EFAD27618D6CDE200D621BB /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
+		3EFAD27718D6CDE200D621BB /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
+		3EFAD27918D6CE4900D621BB /* RBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBMainViewController.h; sourceTree = "<group>"; };
+		3EFAD27A18D6CE4900D621BB /* RBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBMainViewController.m; sourceTree = "<group>"; };
+		3EFAD27C18D6D2E000D621BB /* RBCustomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBCustomDatePickerView.h; sourceTree = "<group>"; };
+		3EFAD27D18D6D2E000D621BB /* RBCustomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBCustomDatePickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EFAD24018D6CC5200D621BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD24918D6CC5200D621BB /* CoreGraphics.framework in Frameworks */,
+				3EFAD24B18D6CC5200D621BB /* UIKit.framework in Frameworks */,
+				3EFAD24718D6CC5200D621BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFAD25B18D6CC5200D621BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD26018D6CC5200D621BB /* XCTest.framework in Frameworks */,
+				3EFAD26218D6CC5200D621BB /* UIKit.framework in Frameworks */,
+				3EFAD26118D6CC5200D621BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EFAD23A18D6CC5100D621BB = {
+			isa = PBXGroup;
+			children = (
+				3EFAD24C18D6CC5200D621BB /* RBCustomDateTimePicker */,
+				3EFAD26518D6CC5200D621BB /* RBCustomDateTimePickerTests */,
+				3EFAD24518D6CC5200D621BB /* Frameworks */,
+				3EFAD24418D6CC5200D621BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EFAD24418D6CC5200D621BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD24318D6CC5200D621BB /* RBCustomDateTimePicker.app */,
+				3EFAD25E18D6CC5200D621BB /* RBCustomDateTimePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EFAD24518D6CC5200D621BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD24618D6CC5200D621BB /* Foundation.framework */,
+				3EFAD24818D6CC5200D621BB /* CoreGraphics.framework */,
+				3EFAD24A18D6CC5200D621BB /* UIKit.framework */,
+				3EFAD25F18D6CC5200D621BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3EFAD24C18D6CC5200D621BB /* RBCustomDateTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD27518D6CD0200D621BB /* CycleScollview */,
+				3EFAD25518D6CC5200D621BB /* RBAppDelegate.h */,
+				3EFAD25618D6CC5200D621BB /* RBAppDelegate.m */,
+				3EFAD27918D6CE4900D621BB /* RBMainViewController.h */,
+				3EFAD27A18D6CE4900D621BB /* RBMainViewController.m */,
+				3EFAD25818D6CC5200D621BB /* Images.xcassets */,
+				3EFAD24D18D6CC5200D621BB /* Supporting Files */,
+			);
+			path = RBCustomDateTimePicker;
+			sourceTree = "<group>";
+		};
+		3EFAD24D18D6CC5200D621BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD24E18D6CC5200D621BB /* RBCustomDateTimePicker-Info.plist */,
+				3EFAD24F18D6CC5200D621BB /* InfoPlist.strings */,
+				3EFAD25218D6CC5200D621BB /* main.m */,
+				3EFAD25418D6CC5200D621BB /* RBCustomDateTimePicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EFAD26518D6CC5200D621BB /* RBCustomDateTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD26B18D6CC5200D621BB /* RBCustomDateTimePickerTests.m */,
+				3EFAD26618D6CC5200D621BB /* Supporting Files */,
+			);
+			path = RBCustomDateTimePickerTests;
+			sourceTree = "<group>";
+		};
+		3EFAD26618D6CC5200D621BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD26718D6CC5200D621BB /* RBCustomDateTimePickerTests-Info.plist */,
+				3EFAD26818D6CC5200D621BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EFAD27518D6CD0200D621BB /* CycleScollview */ = {
+			isa = PBXGroup;
+			children = (
+				3EFAD27618D6CDE200D621BB /* MXSCycleScrollView.h */,
+				3EFAD27718D6CDE200D621BB /* MXSCycleScrollView.m */,
+				3EFAD27C18D6D2E000D621BB /* RBCustomDatePickerView.h */,
+				3EFAD27D18D6D2E000D621BB /* RBCustomDatePickerView.m */,
+			);
+			path = CycleScollview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EFAD24218D6CC5200D621BB /* RBCustomDateTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EFAD26F18D6CC5200D621BB /* Build configuration list for PBXNativeTarget "RBCustomDateTimePicker" */;
+			buildPhases = (
+				3EFAD23F18D6CC5200D621BB /* Sources */,
+				3EFAD24018D6CC5200D621BB /* Frameworks */,
+				3EFAD24118D6CC5200D621BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBCustomDateTimePicker;
+			productName = RBCustomDateTimePicker;
+			productReference = 3EFAD24318D6CC5200D621BB /* RBCustomDateTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EFAD25D18D6CC5200D621BB /* RBCustomDateTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EFAD27218D6CC5200D621BB /* Build configuration list for PBXNativeTarget "RBCustomDateTimePickerTests" */;
+			buildPhases = (
+				3EFAD25A18D6CC5200D621BB /* Sources */,
+				3EFAD25B18D6CC5200D621BB /* Frameworks */,
+				3EFAD25C18D6CC5200D621BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EFAD26418D6CC5200D621BB /* PBXTargetDependency */,
+			);
+			name = RBCustomDateTimePickerTests;
+			productName = RBCustomDateTimePickerTests;
+			productReference = 3EFAD25E18D6CC5200D621BB /* RBCustomDateTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EFAD23B18D6CC5100D621BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = renbing;
+				TargetAttributes = {
+					3EFAD25D18D6CC5200D621BB = {
+						TestTargetID = 3EFAD24218D6CC5200D621BB;
+					};
+				};
+			};
+			buildConfigurationList = 3EFAD23E18D6CC5100D621BB /* Build configuration list for PBXProject "RBCustomDateTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3EFAD23A18D6CC5100D621BB;
+			productRefGroup = 3EFAD24418D6CC5200D621BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EFAD24218D6CC5200D621BB /* RBCustomDateTimePicker */,
+				3EFAD25D18D6CC5200D621BB /* RBCustomDateTimePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EFAD24118D6CC5200D621BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD25118D6CC5200D621BB /* InfoPlist.strings in Resources */,
+				3EFAD25918D6CC5200D621BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFAD25C18D6CC5200D621BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD26A18D6CC5200D621BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EFAD23F18D6CC5200D621BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD27818D6CDE200D621BB /* MXSCycleScrollView.m in Sources */,
+				3EFAD27B18D6CE4900D621BB /* RBMainViewController.m in Sources */,
+				3EFAD25718D6CC5200D621BB /* RBAppDelegate.m in Sources */,
+				3EFAD27E18D6D2E000D621BB /* RBCustomDatePickerView.m in Sources */,
+				3EFAD25318D6CC5200D621BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFAD25A18D6CC5200D621BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EFAD26C18D6CC5200D621BB /* RBCustomDateTimePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EFAD26418D6CC5200D621BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EFAD24218D6CC5200D621BB /* RBCustomDateTimePicker */;
+			targetProxy = 3EFAD26318D6CC5200D621BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EFAD24F18D6CC5200D621BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EFAD25018D6CC5200D621BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3EFAD26818D6CC5200D621BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EFAD26918D6CC5200D621BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EFAD26D18D6CC5200D621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3EFAD26E18D6CC5200D621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EFAD27018D6CC5200D621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCustomDateTimePicker/RBCustomDateTimePicker-Prefix.pch";
+				INFOPLIST_FILE = "RBCustomDateTimePicker/RBCustomDateTimePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3EFAD27118D6CC5200D621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCustomDateTimePicker/RBCustomDateTimePicker-Prefix.pch";
+				INFOPLIST_FILE = "RBCustomDateTimePicker/RBCustomDateTimePicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3EFAD27318D6CC5200D621BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RBCustomDateTimePicker.app/RBCustomDateTimePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCustomDateTimePicker/RBCustomDateTimePicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RBCustomDateTimePickerTests/RBCustomDateTimePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3EFAD27418D6CC5200D621BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RBCustomDateTimePicker.app/RBCustomDateTimePicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RBCustomDateTimePicker/RBCustomDateTimePicker-Prefix.pch";
+				INFOPLIST_FILE = "RBCustomDateTimePickerTests/RBCustomDateTimePickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EFAD23E18D6CC5100D621BB /* Build configuration list for PBXProject "RBCustomDateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFAD26D18D6CC5200D621BB /* Debug */,
+				3EFAD26E18D6CC5200D621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EFAD26F18D6CC5200D621BB /* Build configuration list for PBXNativeTarget "RBCustomDateTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFAD27018D6CC5200D621BB /* Debug */,
+				3EFAD27118D6CC5200D621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3EFAD27218D6CC5200D621BB /* Build configuration list for PBXNativeTarget "RBCustomDateTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EFAD27318D6CC5200D621BB /* Debug */,
+				3EFAD27418D6CC5200D621BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EFAD23B18D6CC5100D621BB /* Project object */;
+}
